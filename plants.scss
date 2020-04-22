@@ -1,0 +1,30 @@
+$color: #614741;
+
+%message {
+	border-right: 5px solid black;
+	border-bottom: 5px solid black; 
+}
+
+h2,h4,h5 {
+	color: $color;
+}
+
+div{ 
+	p::selection {
+	background-color: yellow;
+	color: red;
+	}
+}
+
+th {
+	@extend %message;
+	text-align: center;
+}
+
+td {
+	@extend %message;
+	padding: 10px;
+}
+
+
+

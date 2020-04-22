@@ -1,0 +1,23 @@
+td, th {
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+h2, h4, h5 {
+  color: #614741;
+}
+
+div p::selection {
+  background-color: yellow;
+  color: red;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  padding: 10px;
+}
+
+/*# sourceMappingURL=plants.css.map */
